@@ -1,0 +1,66 @@
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  #nav-bar {
+
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 50px;
+    background-image: url(https://www.pcgamesn.com/wp-content/uploads/2021/09/total-war-warhammer-3-release-date-delay.jpg);
+}
+.nav-link {
+    position: static;
+    
+    margin-left: 10px;
+
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#home {
+    
+    margin-top: 50px;
+    margin-right: 20px;
+}
+body {
+    background-color: orange;
+    
+    
+}
+#home {
+    text-align: center;
+    border: 3px solid black;
+}
+#text {
+    text-align: center;
+    border: 3px solid black;
+}
+#release {
+    text-align: center;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+#trailer {
+    margin: auto;
+    width: 50%;
+}
+#header-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 50px;
+  height: 45px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
